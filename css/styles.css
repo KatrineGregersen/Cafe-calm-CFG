@@ -104,7 +104,6 @@ html, body{
 
 
 /*footer */
-
 .footer{
   background:black;
   color: white;
@@ -125,7 +124,6 @@ html, body{
 
 /* opening hours */
 .openinghours {
-
     padding:0 10px 0 10px;
     overflow: hidden;
     display: inline-block;
@@ -171,6 +169,23 @@ html, body{
 }
 
 
+/* Google maps */
+.map-container-2{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-2 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+
 /* New letter */
 .content {
 max-width: 650px;
@@ -182,6 +197,7 @@ z-index: 2; }
 .content h2 {
 color: white;
 margin-bottom: 30px;
+font-size:1em;
 }
 
 .content .form-control {
