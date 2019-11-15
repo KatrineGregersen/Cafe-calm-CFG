@@ -3,13 +3,14 @@
 font-family: 'Lato', sans-serif; */
 
 
-html, body{
+body{
+  overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
   color:#505962;
 }
 
-
 /* Navigation */
+
 .navbar{
   text-transform: uppercase;
   font-size: 700;
@@ -39,25 +40,30 @@ html, body{
 
 
 /* landing page */
-#home {
-  background: url(../img/background-frontpage.png)no-repeat center center;
+.home-background {
+  background-image: url("../img/background-frontpage.png");
+  position: fixed;
   display: table;
-  height: 40em;
-  position: relative;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-size:cover;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 .caption{
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+  width: 100%;
+  max-width:100%;
+  position: absolute;
+  top:38%;
+  z-index: 1;
   color:white;
   text-transform: uppercase;
 }
 
 .caption h1{
-  font-size: 3rem;
+  font-3.8rem;
   font-weight: 700;
   letter-spacing: .3rem;
   text-shadow: .1rem .1rem .8rem black;
@@ -75,95 +81,4 @@ html, body{
   border-radius: 0;
   padding:.6rem 1.3rem;
   font-size: 1.1rem;
-}
-
-/* stamp */
-
-.padding{
-  padding: 80px 0;
-}
-
-.padding-stamp{
-  padding: 80px 0;
-  color: black;
-}
-
-#stamp{
-  max-width: 100%;
-  height: auto;
-  -webkit-filter: drop-shadow(5px 5px 5px #2e2d2c);
-  transform: rotate(240deg);
-}
-
-/* reviews carousel*/
-.carousel-inner{
-  width: 100%;
-  padding: 40px 30px;
-  text-align: center;
-}
-
-
-/*footer */
-
-.footer{
-  background:lightgrey;
-  color: #d3d3d3;
-  height: 300px;
-  max-width: 100%;
-}
-
-.footer h1{
-  color:white;
-  text-transform: uppercase;
-  font-size: 1em;
-  text-align: center;
-  text-shadow: .1rem .01rem .3rem black;
-}
-
-/* opening hours */
-.openinghours {
-    border-radius:4px;
-    margin:10px;
-    padding:0 10px 0 10px;
-    overflow: hidden;
-    display: inline-block;
-}
-.openinghourscontent {
-    float:left;
-}
-.openinghourscontent h2 {
-    display:block;
-    text-align:center;
-    margin-top:.33em;
-}
-
-.today {
-    color: #8AC007;
-}
-.opening-hours-table tr td:first-child {
-    font-weight:bold;
-}
-
-#open-status {
-    display:block;
-    margin-top:-1em;
-    text-align:center;
-    padding: 10px;
-}
-.openorclosed:after {
-    content:" open during these hours:";
-}
-.open {
-    color:green;
-}
-.open:after {
-    content:" Open";
-    color: #6C0;
-}
-.closed:after {
-    content:" Closed";
-    color: red;
-}
-.opening-hours-table tr td {
-    padding:5px;
 }
