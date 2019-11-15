@@ -173,8 +173,38 @@ html, body{
 #menu-page {
   background: url(../img/menu-banner.jpg)no-repeat center center;
   display: table;
-  height: 20em;
+  height: 18em;
   position: relative;
   width: 100%;
   background-size:cover;
+}
+
+.caption-menu{
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+  color:white;
+  text-transform: uppercase;
+}
+
+.caption-menu h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption-menu h3{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+/* menu carousel*/
+.carousel-drinks-inner{
+  width: 100%;
+  padding: 40px 30px;
+  text-align: center;
+  align-items: center;
 }
