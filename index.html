@@ -7,7 +7,7 @@
   <title>Cafe Calm Website</title>
   <link rel='stylesheet' type='text/css' href='css/bootstrap-4.3.1-dist/css/bootstrap.min.css'>
   <link rel='stylesheet' type='text/css' href='css/styles.css'>
-  <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -34,7 +34,7 @@
 <!-- landing page-->
 <div id="home">
 <div class ="caption">
-  <h1>Welcome to Cafe Calm</h1>
+  <h1>Wlcome to Cafe Calm</h1>
   <h3>Best coffee in town</h3>
   <a class="btn btn-outline-light btn-lg" href="food-menu.html">See Menu</a>
 </div>
@@ -86,38 +86,18 @@
 <!-- end stamp section -->
 
 
-<!--- Footer ------------>
+
+<!-- Footer  -->
 <div class="footer">
-  <div class="padding">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
-          <h1>Opening Hours</h1>
-
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h1>Location</h1>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h1>Social Media</h1>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h1>Contact Us</h1>
-      </div>
-    </div>
-  </div>
-  </div>
-</div>
-
-
-
-<!-- opening hours  -->
+<div class="container">
+<div class="row">
+            <!-- Opening hours  -->
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
 <section class="openinghours">
     <div class="openinghourscontent section">
         <div class="header">
-             <h2>Opening hours</h2>
- <span id="open-status"><small class="openorclosed">We are</small></span>
-
+             <h1>Opening hours</h1>
+             <span id="open-status"><small class="openorclosed">We are</small></span>
         </div>
         <table class="opening-hours-table">
             <tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
@@ -177,6 +157,47 @@
         </script>
     </div>
 </section>
+</div>
+        <!-- Location  -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h1>Location</h1>
+            <p> 150 Dundas Street<br> Edinburgh <br> EH3 5DQ</p>
+            <p> 07124 567890</p>
+            <!--Google map-->
+            <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 50px">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.3688479383923!2d-3.2033866839610186!3d55.96031048060942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c794a36c098d%3A0x552b04ce0130221c!2sCuckoo&#39;s%20Bakery!5e0!3m2!1sda!2suk!4v1573831934197!5m2!1sda!2suk"frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+            </div>
+
+<!--Google Maps-->
+        </div>
+        <!-- Social media  -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h1>Social Media</h1>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
+        <!-- News letter  -->
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <h1>News letter</h1>
+            <section>
+                        <div class="content">
+                            <form>
+                                <h2>Stay in the loop by subscribing to our news letter!</h2>
+                                <div class="input-group">
+                                    <input type="email" class="form-control" placeholder="Enter your email">
+                                    <span class="input-group-btn">
+                                        <button class="btn" type="submit">Subscribe Now</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+          </section>
+        </div>
+</div>
+</div>
+
 
 
 <!-- Script source files-->
