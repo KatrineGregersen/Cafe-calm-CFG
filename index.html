@@ -7,11 +7,10 @@
   <title>Cafe Calm Website</title>
   <link rel='stylesheet' type='text/css' href='css/bootstrap-4.3.1-dist/css/bootstrap.min.css'>
   <link rel='stylesheet' type='text/css' href='css/styles.css'>
+  <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-<!-- Start home section-->
-<div id="home">
 <!-- Navigation -->
 <nav class = "navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <a class = "navbar-brand" href="index.html"><img src="img/logo.png"></a>
@@ -19,52 +18,173 @@
       data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
   </button>
-  <div class ="collapse navbar-collapse" data-hover="dropdown" data-animaions="fadeIn   fadeIn" id="navbarResponsive">
+  <div class ="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="food-menu.html">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="location.html">Location</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="order-out.html">Order Out</a>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="food-menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
+          <li class="nav-item"><a class="nav-link" href="order-out.html">Order Out</a>
           </li>
       </ul>
   </div>
 </nav>
 <!-- End of nav-->
 
-<!-- Start landing page section -->
-<div class= "home-background">
-</div>
-
-<!-- Text front page -->
-<div class ="caption text-center">
+<!-- landing page-->
+<div id="home">
+<div class ="caption">
   <h1>Welcome to Cafe Calm</h1>
   <h3>Best coffee in town</h3>
   <a class="btn btn-outline-light btn-lg" href="food-menu.html">See Menu</a>
 </div>
+</div>
 <!-- End landing page section -->
+
+<!-- stampcard section -->
+<div class="padding-stamp">
+<div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+          <img id="stamp" src="img/stampcard.png" height="80%" width="80%">
+      </div>
+      <div class ="col-sm-6">
+          <h2>Did you know...</h2>
+          <p class="lead"> that you can pick up a stampcard and get the 6th hot
+          drink for free? Who doesn't love good freebie.
+          Stampcards are available at our coffeeshop.</p>
+
+          <!-- review section -->
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="d-block w-100">Today I was pop into the cafe for lunch!
+                  I ordered to Roslin burger(veg burger) Absolutely it was fantastic!
+                  Really enjoyed! Thank you!!
+                </p>
+                <img class = "star-review" src="img/stars.png" alt="stars">
+              </div>
+              <div class="carousel-item">
+                <p class="d-block w-100">Stopped in on our way to the train station.
+                   Lunch was delicious, staff were friendly, great atmosphere!
+                </p>
+                <img class = "star-review" src="img/stars.png" alt="stars">
+              </div>
+              <div class="carousel-item">
+                <p class="d-block w-100">We walked in after a long day sight seeing.
+                  We were very warmly welcomed. Great service. Food was excellent. The interio was very unique and rustic...very enjoyable.
+                </p>
+                <img class = "star-review" src="img/stars.png" alt="stars">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
 </div>
 
-<!-- End home section-->
+<!-- end stamp section -->
 
-<!-- Start footer-->
-<footer>
 
-</footer>
+<!--- Footer ------------>
+<div class="footer">
+  <div class="padding">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" >
+          <h1>Opening Hours</h1>
+
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h1>Location</h1>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h1>Social Media</h1>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h1>Contact Us</h1>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<!-- opening hours  -->
+<section class="openinghours">
+    <div class="openinghourscontent section">
+        <div class="header">
+             <h2>Opening hours</h2>
+ <span id="open-status"><small class="openorclosed">We are</small></span>
+
+        </div>
+        <table class="opening-hours-table">
+            <tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
+                <td>Monday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Tuesday" itemprop="openingHours" title="Open Tuesday at 9am to 6pm">
+                <td>Tuesday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Wednesday" itemprop="openingHours" title="Open Wednesday at 9am to 6pm">
+                <td>Wednesday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Thursday" itemprop="openingHours" title="Open Thursday at 9am to 8pm">
+                <td>Thursday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">20:00</td>
+            </tr>
+            <tr id="Friday" itemprop="openingHours" title="Open Friday at 9am to 6pm">
+                <td>Friday</td>
+                <td class="opens">09:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Saturday" itemprop="openingHours" title="Open Saturday at 10am to 6pm">
+                <td>Saturday</td>
+                <td class="opens">10:00</td>
+                <td>-</td>
+                <td class="closes">18:00</td>
+            </tr>
+            <tr id="Sunday" itemprop="openingHours" title="Open Sunday at 11am to 4pm">
+                <td>Sunday</td>
+                <td class="opens">11:00</td>
+                <td>-</td>
+                <td class="closes">16:00</td>
+            </tr>
+        </table>
+
+        <script>
+            (function(e, t, n, r) {
+                if (e) return;
+                t._appt = true;
+                var i = n.createElement(r),
+                    s = n.getElementsByTagName(r)[0];
+                i.async = true;
+                i.src = '//dje0x8zlxc38k.cloudfront.net/loaders/s-min.js';
+                s.parentNode.insertBefore(i, s)
+            })(window._appt, window, document, "script")
+        </script>
+    </div>
+</section>
 
 
 <!-- Script source files-->
 <script src="js/jquery-3.4.1.js"></script>
 <script src="css/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 <script src ="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+<script src="js/script.js"></script>
+
 
 </body>
 </html>
