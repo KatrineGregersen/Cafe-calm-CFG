@@ -167,3 +167,14 @@ html, body{
 .opening-hours-table tr td {
     padding:5px;
 }
+
+
+/* Menu page*/
+#menu-page {
+  background: url(../img/menu-banner.jpg)no-repeat center center;
+  display: table;
+  height: 20em;
+  position: relative;
+  width: 100%;
+  background-size:cover;
+}
