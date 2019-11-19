@@ -247,16 +247,6 @@ font-weight:600;
   padding-bottom: 1.6rem;
 }
 
-/* menu carousel*/
-.carousel-drinks-inner{
-  width: 100%;
-  padding: 40px 30px;
-  text-align: center;
-  align-items: center;
-}
-
-
-
 /* Pre order*/
 .order-form .container {
       color: #4c4c4c;
@@ -288,3 +278,28 @@ font-weight:600;
     .btn-submit:hover {
       background-color: #090909 !important;
     }
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-container {
+  background-color: #f7f6f2;
+  margin-left: 6em;
+  margin-right: 6em;
+  padding-top: 2em;
+}
+
+/* menu carousel*/
+.carousel-drinks-inner{
+  width: 100%;
+  padding: 40px 30px;
+  text-align: center;
+  align-items: center;
+  height:300px;
+  overflow:hidden;
+}
+
+.drinks-image {
+  width: inherit;
+}
