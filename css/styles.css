@@ -83,10 +83,6 @@ html, body{
   padding: 80px 0;
 }
 
-.padding-stamp{
-  padding: 80px 0;
-  color: black;
-}
 
 #stamp{
   max-width: 100%;
@@ -219,8 +215,8 @@ font-weight:600;
 }
 
 
-/* Menu page*/
-#menu-page {
+/*Header all pages*/
+.header {
   background: url(../img/menu-banner.jpg)no-repeat center center;
   display: table;
   height: 18em;
@@ -229,15 +225,15 @@ font-weight:600;
   background-size:cover;
 }
 
-.caption-menu{
+.header-caption{
   display: table-cell;
   text-align: center;
-  vertical-align: bottom;
+  vertical-align: middle;
   color:white;
   text-transform: uppercase;
 }
 
-.caption-menu h1{
+.header-caption h1{
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: .3rem;
@@ -245,7 +241,7 @@ font-weight:600;
   padding-bottom: 1rem;
 }
 
-.caption-menu h3{
+.header-caption h3{
   font-size: 2rem;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
@@ -258,3 +254,37 @@ font-weight:600;
   text-align: center;
   align-items: center;
 }
+
+
+
+/* Pre order*/
+.order-form .container {
+      color: #4c4c4c;
+      padding: 20px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    }
+
+    .order-form-label {
+      margin: 8px 0 0 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .order-form-input {
+      width: 100%;
+      padding: 8px 8px;
+      border-width: 1px !important;
+      border-style: solid !important;
+      border-radius: 3px !important;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.2em;
+      background-color: transparent;
+      border-color: #cccccc;
+    }
+
+    .btn-submit:hover {
+      background-color: #090909 !important;
+    }
