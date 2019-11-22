@@ -12,9 +12,37 @@
   <link rel='stylesheet' type='text/css' href='css/bootstrap-4.3.1-dist/css/bootstrap.min.css'>
   <link rel='stylesheet' type='text/css' href='css/styles.css'>
   <!-- <script> -->
+  <style>
+    .toggler { width: 300px; height: 400px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 300px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+  </style>
   <script>
   $(window).load(function() {
     $( "#accordion" ).accordion();
+  } );
+  </script>
+  <script>
+  // The animation colour thing
+  $( function() {
+    var state = true;
+    $( "#button" ).on( "click", function() {
+      if ( state ) {
+        $( "#effect" ).animate({
+          backgroundColor: "#aa0000",
+          color: "#fff",
+          width: 500
+        }, 1000 );
+      } else {
+        $( "#effect" ).animate({
+          backgroundColor: "#fff",
+          color: "#000",
+          width: 240
+        }, 1000 );
+      }
+      state = !state;
+    });
   } );
   </script>
 </head>
@@ -50,6 +78,60 @@
 <h2>
 In 2019 four girls came together to attempt to learn how to code. We were kinda rubbish so we opened a cafe instead.
 </h2>
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+          <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+          <img src="23130986_10214033836536839_8577226592759389076_n.jpg" width="200px">
+          <p>
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+          <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+          <img src="69548387_2955708171321843_4370917668006395904_o.jpg" width="200px">
+          <p>
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6">
+      <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+          <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+          <img src="23130986_10214033836536839_8577226592759389076_n.jpg" width="200px">
+          <p>
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+          <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+          <img src="23130986_10214033836536839_8577226592759389076_n.jpg" width="200px">
+          <p>
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <p id="Team Profiles">
   <img src="23130986_10214033836536839_8577226592759389076_n.jpg" width="200px">
   <h2> The is Kat. She likes to date scottish men and she has to re-write code over and over because she always deletes it.
@@ -65,46 +147,35 @@ In 2019 four girls came together to attempt to learn how to code. We were kinda 
   <h2> The is Lauren.<a href="https://www.instagram.com/charleaharrison/">Check her insta here!</a>
   </h2>
 </p>
+<h2> Our Values </h2>
 <div id="accordion">
-  <h3>Section 1</h3>
+  <h3>Work hard</h3>
   <div>
     <p>
-    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    But not too hard that you become moody because you never see your friends.
     </p>
   </div>
-  <h3>Section 2</h3>
+  <h3>Laugh Alot</h3>
   <div>
     <p>
-    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-    suscipit faucibus urna.
+    But not too much because we needing to be turning coffees out
     </p>
   </div>
-  <h3>Section 3</h3>
+  <h3>Kindness</h3>
   <div>
     <p>
-    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    Unless,
     </p>
     <ul>
-      <li>List item one</li>
-      <li>List item two</li>
-      <li>List item three</li>
+      <li>Someone of age has called you a snowflake</li>
+      <li>You priously saw that person NOT help someone with a pram up the stairs </li>
+      <li>Someone is watching a football match with no headphones in because we hate that.</li>
     </ul>
   </div>
-  <h3>Section 4</h3>
+  <h3>Quaility at a good price</h3>
   <div>
     <p>
-    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-    mauris vel est.
+    But only to an extent because we want a fair wage yknow
     </p>
     <p>
     Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.

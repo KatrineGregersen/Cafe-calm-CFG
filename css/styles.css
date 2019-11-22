@@ -258,3 +258,7 @@ font-weight:600;
   text-align: center;
   align-items: center;
 }
+/* designs profile togglers */
+.toggler{
+  align-items: center;
+}
