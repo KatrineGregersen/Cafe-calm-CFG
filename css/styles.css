@@ -258,7 +258,27 @@ font-weight:600;
   text-align: center;
   align-items: center;
 }
-/* designs profile togglers */
-.toggler{
-  align-items: center;
+
+/* about page */
+#about{
+  padding-top: 80px
+
+}
+
+#accordion{
+  padding: 0px 30px 30px 30px
+  width: 700px
+  text-align: left;
+
+}
+
+#hashtag{
+  position: absolute;
+  left: 750px;
+  text-align: centre;
+}
+
+.widget{
+  padding: 30px 30px;
+  text-align: center;
 }
