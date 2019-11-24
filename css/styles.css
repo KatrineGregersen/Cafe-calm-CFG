@@ -351,4 +351,18 @@ font-weight:600;
   padding-bottom: 1rem;
 }
 
+/*Start of order out button styling - needs fixing to make image use hidden overflow rather than scaling down*/
+.menu-order-out {
+  width: 100%;
+  padding: 0px 0px;
+  text-align: center;
+  align-items: center;
+  height:16em;
+  overflow:hidden;
+}
+
+.order-out-button-2 {
+  width: inherit;
+}
+
 /*End of menu page styling*/
