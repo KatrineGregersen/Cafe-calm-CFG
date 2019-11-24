@@ -288,8 +288,8 @@ font-weight:600;
   background-color: #f7f6f2;
   margin-left: 6em;
   margin-right: 6em;
-  padding-top: 2em;
   margin-top: 2em;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
 }
 
 /* menu carousel*/
@@ -309,7 +309,11 @@ font-weight:600;
 .drinks-title {
   text-align: center;
   padding-bottom: 0.5em;
-  padding-top: 1em;
+}
+
+.menu-title {
+  text-align: center;
+  padding-top: 0.5em;
 }
 
 .menu-item {
@@ -345,6 +349,20 @@ font-weight:600;
   font-size: 2rem;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1rem;
+}
+
+/*Start of order out button styling - needs fixing to make image use hidden overflow rather than scaling down*/
+.menu-order-out {
+  width: 100%;
+  padding: 0px 0px;
+  text-align: center;
+  align-items: center;
+  height:16em;
+  overflow:hidden;
+}
+
+.order-out-button-2 {
+  width: inherit;
 }
 
 /*End of menu page styling*/
