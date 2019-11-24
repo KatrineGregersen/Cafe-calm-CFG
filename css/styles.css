@@ -288,7 +288,6 @@ font-weight:600;
   background-color: #f7f6f2;
   margin-left: 6em;
   margin-right: 6em;
-  padding-top: 2em;
   margin-top: 2em;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
 }
@@ -310,7 +309,11 @@ font-weight:600;
 .drinks-title {
   text-align: center;
   padding-bottom: 0.5em;
-  padding-top: 1em;
+}
+
+.menu-title {
+  text-align: center;
+  padding-top: 0.5em;
 }
 
 .menu-item {
