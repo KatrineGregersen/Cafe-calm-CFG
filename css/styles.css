@@ -259,14 +259,13 @@ font-weight:600;
   align-items: center;
 }
 
-/* about page */
+/* about page. all in order but social media icons are at the bottom */
 #about{
   padding-top:80px;
 }
 
 #aboutShare{
   padding-bottom: 40px;
-
 }
 
 #aboutUs{
@@ -281,6 +280,7 @@ font-weight:600;
   background-color: rgb(0,0,0);
   font-size: 20px;
 }
+
 #partyRow{
  padding-right: 15%;
  padding-left: 15%;
@@ -289,10 +289,7 @@ font-weight:600;
 #contactUs{
   min-width: 300px;
   margin-left: auto;
-  /* padding-left: 18%;
-  padding-right: 18%; */
 }
-
 
 #teamProfiles{
   margin-left: auto;
@@ -301,19 +298,16 @@ font-weight:600;
   display: inline-block;
   display: -moz-inline-box;
 
-
 }
 .profiePic{
   border-radius: 50%;
   align: center;
   max-width: 100%;
   min-width: 20%;
-
 }
 
 .widget{
   width: 100vw;
-
   padding: 30px;
   text-align: center;
   align-self: left;
@@ -335,9 +329,7 @@ font-weight:600;
   align: center;
   margin-left: auto;
   margin-right: auto;
-  /* padding: 75px 35px 35px 75px; */
 }
-
 
 #accordion{
   max-width: 500px;
@@ -355,7 +347,6 @@ font-weight:600;
   box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, .4),
         inset 0px 1px 1px 0px rgba(0, 0, 0, .2);
 }
-
 
 #hashtag{
   text-align: center;
