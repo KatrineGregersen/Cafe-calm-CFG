@@ -306,22 +306,15 @@ font-weight:600;
   list-style: none;
 }
 
-.menu-container {
-  background-color: #f7f6f2;
-  margin-left: 6em;
-  margin-right: 6em;
-  margin-top: 2em;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
-}
-
 /* menu carousel*/
 .carousel-drinks-inner{
-  width: 100%;
+  width: 70%;
   padding: 0px 0px;
   text-align: center;
   align-items: center;
   height:16em;
   overflow:hidden;
+  margin: 2em;
 }
 
 .drinks-image {
@@ -355,6 +348,7 @@ font-weight:600;
   display: table-cell;
   text-align: center;
   vertical-align: bottom;
+  padding-bottom: 2em;
   color:white;
   text-transform: uppercase;
 }
@@ -373,18 +367,16 @@ font-weight:600;
   padding-bottom: 1rem;
 }
 
-/*Start of order out button styling - needs fixing to make image use hidden overflow rather than scaling down*/
-.menu-order-out {
-  width: 100%;
-  padding: 0px 0px;
-  text-align: center;
-  align-items: center;
-  height:16em;
-  overflow:hidden;
+.menu-items {
+  justify-content: space-between;
 }
 
-.order-out-button-2 {
-  width: inherit;
+.drinks-list {
+  align-content: center;
 }
 
+@media (min-width: 978px) {
+    td {
+      padding-left: 10em;
+    }
 /*End of menu page styling*/

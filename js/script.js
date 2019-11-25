@@ -40,3 +40,6 @@ if (timeNow >= openTimex && timeNow <= closeTimex) {
 } else {
     $(".openorclosed").toggleClass("closed");
 }
+
+// Fade in captions
+$(".caption").hide().fadeIn(1500);
