@@ -84,6 +84,7 @@ html, body{
 }
 
 
+
 #stamp{
   max-width: 100%;
   height: auto;
@@ -101,22 +102,34 @@ html, body{
 
 /*footer */
 .footer{
-  background:black;
+  background:#323232;
   color: white;
-  height: 100%;
-  max-width: 100%;
-  padding: 25px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
 }
+
+.footer .container-footer{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+
 
 .footer h1{
   color:white;
   text-transform: uppercase;
   font-size: 1em;
   text-align: center;
-  text-shadow: .1rem .01rem .3rem black;
-  border-radius:4px;
   margin:10px;
+  letter-spacing: .1em;
+  padding-bottom: 10px;
 }
+
+
 
 /* opening hours */
 .openinghours {
@@ -180,33 +193,45 @@ width:100%;
 position:absolute;
 }
 
+.social-media
+{
+  text-align: center;
+  padding: 15px;
+}
+/* Social media */
+.social-media a {
+  color: white;
+  font-size:3em;
+  letter-spacing:1em;
+  text-decoration:none;
+  padding: 15px;
+}
+.social-media a:hover {
+  font-size: 3.2em;
+  transition: 0.4s ease;
+}
 
-/* New letter */
-.content {
-max-width: 650px;
-margin: 0 auto;
-text-align: center;
-position: relative;
-z-index: 2; }
 
-.content h2 {
+
+.content-newsletter h2 {
 color: white;
-margin-bottom: 30px;
+margin-bottom: 10px;
+margin-top: 50px;
 font-size:1em;
 }
 
-.content .form-control {
+.content-newsletter .form-control {
 height: 50px;
 border-color: #ffffff;
 border-radius:0;
 }
 
-.content.form-control:focus {
+.content-newsletter.form-control:focus {
 box-shadow: none;
 border: 2px solid #243c4f;
 }
 
-.content .btn {
+.content-newsletter .btn {
 min-height: 50px;
 border-radius:0;
 background: #243c4f;
