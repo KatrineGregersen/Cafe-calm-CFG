@@ -77,13 +77,11 @@ html, body{
   font-size: 1.1rem;
 }
 
-/* stamp */
-
 .padding{
   padding: 80px 0;
 }
 
-
+/* stamp */
 #stamp{
   max-width: 100%;
   height: auto;
@@ -219,27 +217,27 @@ font-weight:600;
 .header {
   background: url(../img/menu-banner.jpg)no-repeat center center;
   display: table;
-  height: 18em;
+  height: 5.6em;
   position: relative;
   width: 100%;
   background-size:cover;
 }
 
-.header-caption{
+/* .header-caption{
   display: table-cell;
   text-align: center;
   vertical-align: middle;
   color:white;
   text-transform: uppercase;
-}
+} */
 
-.header-caption h1{
+/* .header-caption h1{
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: .3rem;
   text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 1rem;
-}
+} */
 
 .header-caption h3{
   font-size: 2rem;
