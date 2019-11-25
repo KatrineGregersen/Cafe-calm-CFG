@@ -261,15 +261,38 @@ font-weight:600;
 
 /* about page */
 #about{
-  padding-top: 80px
+  padding-top:80px;
+}
+
+#aboutShare{
+  padding-bottom: 40px;
 
 }
 
 #aboutUs{
-  /* width: 75%; */
   text-align: justify;
-position: center;
+  position: center;
 }
+
+#parties{
+  width: 100vw;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(0,0,0);
+  font-size: 20px;
+}
+#partyRow{
+ padding-right: 15%;
+ padding-left: 15%;
+}
+
+#contactUs{
+  min-width: 300px;
+  margin-left: auto;
+  /* padding-left: 18%;
+  padding-right: 18%; */
+}
+
 
 #teamProfiles{
   margin-left: auto;
@@ -278,11 +301,13 @@ position: center;
   display: inline-block;
   display: -moz-inline-box;
 
+
 }
 .profiePic{
   border-radius: 50%;
   align: center;
-  border: 20px 20px 20px 20px;
+  max-width: 100%;
+  min-width: 20%;
 
 }
 
@@ -296,6 +321,10 @@ position: center;
   font-size: 20px
 }
 
+.flavour{
+  min-width:130px;
+}
+
 .options{
   font-size; 20px;
 }
@@ -304,36 +333,41 @@ position: center;
   height: 100%;
   width: 100%;
   align: center;
-  padding: 100px 35px 35px 100px;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 75px 35px 35px 75px; */
 }
+
 
 #accordion{
   max-width: 500px;
-
+  text-align: center;
+  font-size: 16px;
 }
+
+#accordion .ui-accordion-content a {
+  color: #777;
+}
+
+#accordion .ui-accordion-header {
+  background-color: #ccc;
+  margin: 0px;
+  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, .4),
+        inset 0px 1px 1px 0px rgba(0, 0, 0, .2);
+}
+
 
 #hashtag{
   text-align: center;
 }
 
 .instagram-media{
-  width: 30%;
-  align: center;
-}
-
-#new_message{
-   padding; 30px 30px 30px 50px;
-   width: 50%;
-   height: 100%;
-   float: left;
-}
-
-.messagepop{
+  height: 100%;
   width: 50%;
-  align: center;
-
+  min-height: 480px;
+  text-align: center;
 }
-/* Style all font awesome icons */
+/* Follow Us Section */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -350,14 +384,18 @@ position: center;
 }
 
 /* Social media icons*/
-
 #socialMedia{
   padding: 20px 20px 20px 20px;
   border: 2px solid grey;
-  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
   max-height: 320px;
-  max-width: 365px;
-  align-items: center;
+  max-width: 205px;
+}
+
+#followUs{
+  text-align: center;
 }
 
 /* Facebook */
@@ -376,8 +414,17 @@ position: center;
   background: #C13584;
   color: white;
 }
-/* instagram */
+/* linked in*/
 .fa-linkedin {
   background: #2867B2;
   color: white;
 }
+/* youtube */
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+/* vimeo */
+.fa-vimeo {
+    background: white;
+    color: ;
+  }
