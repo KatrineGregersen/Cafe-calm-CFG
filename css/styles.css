@@ -261,7 +261,7 @@ font-weight:600;
 
 /* about page. all in order but social media icons are at the bottom */
 #about{
-  padding-top:80px;
+  padding-top:90px;
 }
 
 #aboutShare{
@@ -355,7 +355,7 @@ font-weight:600;
 .instagram-media{
   height: 100%;
   width: 50%;
-  min-height: 480px;
+  min-height: 420px;
   text-align: center;
 }
 /* Follow Us Section */
