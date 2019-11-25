@@ -265,20 +265,119 @@ font-weight:600;
 
 }
 
+#aboutUs{
+  /* width: 75%; */
+  text-align: justify;
+position: center;
+}
+
+#teamProfiles{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: inline-block;
+  display: -moz-inline-box;
+
+}
+.profiePic{
+  border-radius: 50%;
+  align: center;
+  border: 20px 20px 20px 20px;
+
+}
+
+.widget{
+  width: 100vw;
+
+  padding: 30px;
+  text-align: center;
+  align-self: left;
+  background-color: rgb(0,0,0);
+  font-size: 20px
+}
+
+.options{
+  font-size; 20px;
+}
+
+#valueInsta{
+  height: 100%;
+  width: 100%;
+  align: center;
+  padding: 100px 35px 35px 100px;
+}
+
 #accordion{
-  padding: 0px 30px 30px 30px
-  width: 700px
-  text-align: left;
+  max-width: 500px;
 
 }
 
 #hashtag{
-  position: absolute;
-  left: 750px;
-  text-align: centre;
+  text-align: center;
 }
 
-.widget{
-  padding: 30px 30px;
+.instagram-media{
+  width: 30%;
+  align: center;
+}
+
+#new_message{
+   padding; 30px 30px 30px 50px;
+   width: 50%;
+   height: 100%;
+   float: left;
+}
+
+.messagepop{
+  width: 50%;
+  align: center;
+
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
   text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Social media icons*/
+
+#socialMedia{
+  padding: 20px 20px 20px 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  max-height: 320px;
+  max-width: 365px;
+  align-items: center;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* instagram */
+.fa-instagram {
+  background: #C13584;
+  color: white;
+}
+/* instagram */
+.fa-linkedin {
+  background: #2867B2;
+  color: white;
 }
