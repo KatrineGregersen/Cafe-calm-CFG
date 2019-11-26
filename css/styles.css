@@ -337,3 +337,183 @@ position:absolute;
 .form-control{
   height: 100px;
 }
+
+
+/* about page. all in order but social media icons are at the bottom */
+#about{
+  padding-top:90px;
+}
+
+#aboutShare{
+  padding-bottom: 40px;
+}
+
+#aboutUs{
+  text-align: justify;
+  position: center;
+}
+
+#parties{
+  width: 100vw;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: rgb(0,0,0);
+  font-size: 20px;
+}
+
+#partyRow{
+ padding-right: 15%;
+ padding-left: 15%;
+}
+
+#contactUs{
+  min-width: 300px;
+  margin-left: auto;
+}
+
+#teamProfiles{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: inline-block;
+  display: -moz-inline-box;
+
+}
+.profiePic{
+  border-radius: 50%;
+  align: center;
+  max-width: 100%;
+  min-width: 20%;
+}
+
+.widget{
+  width: 100vw;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  align-self: left;
+  background-color: rgb(0,0,0);
+  font-size: 20px
+}
+
+.flavour{
+  min-width:130px;
+}
+
+.options{
+  font-size; 20px;
+}
+
+#valueInsta{
+  height: 100%;
+  width: 100%;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#accordion{
+  max-width: 500px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#accordion .ui-accordion-content a {
+
+}
+
+#accordion .ui-accordion-header {
+
+  margin: 0px;
+
+  box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, .4),
+        inset 0px 1px 1px 0px rgba(0, 0, 0, .2);
+}
+
+#accordion:hover
+.accordion-item:hover
+.accordion-item-content,
+.accordion .accordion-item--default
+.accordion-item-content {
+    height: 20em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+}
+
+#hashtag{
+  text-align: center;
+}
+
+.instagram-media{
+  height: 100%;
+  width: 50%;
+  min-height: 420px;
+  text-align: center;
+}
+/* Follow Us Section */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Social media icons*/
+#socialMedia{
+  padding: 20px 20px 20px 20px;
+  box-shadow: 2px grey;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  max-height: 320px;
+  max-width: 205px;
+}
+
+#followUs{
+  text-align: center;
+}
+
+/* Facebook */
+.-facebook {
+  background: black;
+  color: white;
+}
+
+/* Twitter */
+.-twitter {
+  background: black;
+  color: white;
+}
+/* instagram */
+.-instagram {
+  background: black;
+  color: white;
+}
+/* linked in*/
+#fa-linkedin {
+  background: black;
+  color: white;
+}
+/* youtube */
+.-youtube {
+  background: black;
+  color: white;
+/* vimeo */
+.-vimeo {
+    background: black;
+    color: white;
+  }
