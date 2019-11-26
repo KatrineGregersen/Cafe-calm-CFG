@@ -334,7 +334,7 @@ position:absolute;
   padding-bottom: 50px;
 }
 
-.form-control{ 
+.form-control{
 height:
 }
 
@@ -456,7 +456,7 @@ height:
   text-align: center;
 }
 /* Follow Us Section */
-.fa {
+#socialMedia .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -467,7 +467,7 @@ height:
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+#socialMedia .fa:hover {
   opacity: 0.7;
 }
 
@@ -486,33 +486,37 @@ height:
   text-align: center;
 }
 
+
+
+
 /* Facebook */
-.fa-facebook {
+#socialMedia .fa-facebook {
   background: black;
   color: white;
 }
 
 /* Twitter */
-.fa-twitter {
+#socialMedia .fa-twitter {
   background: black;
   color: white;
 }
 /* instagram */
-.fa-instagram {
+#socialMedia .fa-instagram {
   background: black;
   color: white;
 }
 /* linked in*/
-.fa-linkedin {
+#socialMedia .fa-linkedin {
   background: black;
   color: white;
 }
 /* youtube */
-.fa-youtube {
+#socialMedia .fa-youtube {
   background: black;
   color: white;
+}
 /* vimeo */
-.fa-vimeo {
+#socialMedia .fa-vimeo {
     background: black;
     color: white;
   }
