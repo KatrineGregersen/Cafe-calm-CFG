@@ -347,16 +347,10 @@ font-weight:600;
 
 .menu-items {
   justify-content: space-between;
-  align-content: center;
 }
 
 .drinks-list {
   align-content: center;
-  text-align: center;
-}
-
-.drink-list {
-  text-align: center;
 }
 
 @media (min-width: 978px) {
