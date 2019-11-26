@@ -345,6 +345,10 @@ font-weight:600;
   padding-bottom: 1rem;
 }
 
+.menu-items {
+  justify-content: space-between;
+}
+
 .drinks-list {
   align-content: center;
 }
