@@ -333,3 +333,7 @@ position:absolute;
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+.form-control{
+  height: 100px;
+}
