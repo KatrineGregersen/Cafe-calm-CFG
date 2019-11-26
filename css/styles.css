@@ -334,8 +334,12 @@ position:absolute;
   padding-bottom: 50px;
 }
 
-.form-control{ 
-height:
+#exampleInputPassword1 {
+  width: 100%
+}
+
+.Message {
+  width: 200%;
 }
 
 /* about page. all in order but social media icons are at the bottom */
