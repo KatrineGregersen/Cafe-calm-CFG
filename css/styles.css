@@ -77,8 +77,8 @@ html, body{
   font-size: 1.1rem;
 }
 
-.padding{
-  padding: 80px 0;
+.padding-text{
+  padding: 80px;
 }
 
 /* stamp */
@@ -210,33 +210,6 @@ position:absolute;
 
 
 
-.content-newsletter h2 {
-color: white;
-margin-bottom: 10px;
-margin-top: 50px;
-font-size:1em;
-}
-
-.content-newsletter .form-control {
-height: 50px;
-border-color: #ffffff;
-border-radius:0;
-}
-
-.content-newsletter.form-control:focus {
-box-shadow: none;
-border: 2px solid #243c4f;
-}
-
-.content-newsletter .btn {
-min-height: 50px;
-border-radius:0;
-background: #243c4f;
-color: #fff;
-font-weight:600;
-}
-
-
 /*Header all pages*/
 .header {
   background: url(../img/menu-banner.jpg)no-repeat center center;
@@ -247,21 +220,7 @@ font-weight:600;
   background-size:cover;
 }
 
-/* .header-caption{
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  color:white;
-  text-transform: uppercase;
-} */
 
-/* .header-caption h1{
-  font-size: 3rem;
-  font-weight: 700;
-  letter-spacing: .3rem;
-  text-shadow: .1rem .1rem .8rem black;
-  padding-bottom: 1rem;
-} */
 
 .header-caption h3{
   font-size: 2rem;
@@ -276,30 +235,17 @@ font-weight:600;
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
     }
 
-    .order-form-label {
+.order-form-label {
       margin: 8px 0 0 0;
       font-size: 14px;
       font-weight: bold;
-    }
+}
 
-    .order-form-input {
-      width: 100%;
-      padding: 8px 8px;
-      border-width: 1px !important;
-      border-style: solid !important;
-      border-radius: 3px !important;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 14px;
-      font-weight: normal;
-      font-style: normal;
-      line-height: 1.2em;
-      background-color: transparent;
-      border-color: #cccccc;
-    }
 
-    .btn-submit:hover {
-      background-color: #090909 !important;
-    }
+
+.btn-submit:hover {
+    background-color: #090909 !important;
+}
 
 /*Menu page*/
 .menu-list {
