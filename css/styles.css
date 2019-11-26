@@ -190,20 +190,20 @@ width:100%;
 position:absolute;
 }
 
-.social-media
+.social--media
 {
   text-align: center;
   padding: 15px;
 }
 /* Social media */
-.social-media a {
+.social--media a {
   color: white;
   font-size:3em;
   letter-spacing:1em;
   text-decoration:none;
   padding: 15px;
 }
-.social-media a:hover {
+.social--media a:hover {
   font-size: 3.2em;
   transition: 0.4s ease;
 }
@@ -337,6 +337,7 @@ position:absolute;
 .form-control{
 height:100px
 }
+
 
 /* about page. all in order but social media icons are at the bottom */
 #about{
@@ -487,32 +488,32 @@ height:100px
 }
 
 /* Facebook */
-.fa-facebook {
+.-facebook {
   background: black;
   color: white;
 }
 
 /* Twitter */
-.fa-twitter {
+.-twitter {
   background: black;
   color: white;
 }
 /* instagram */
-.fa-instagram {
+.-instagram {
   background: black;
   color: white;
 }
 /* linked in*/
-.fa-linkedin {
+#fa-linkedin {
   background: black;
   color: white;
 }
 /* youtube */
-.fa-youtube {
+.-youtube {
   background: black;
   color: white;
 /* vimeo */
-.fa-vimeo {
+.-vimeo {
     background: black;
     color: white;
   }
