@@ -276,6 +276,7 @@ font-weight:600;
 #parties{
   width: 100vw;
   padding: 10px;
+  color: white;
   text-align: center;
   background-color: rgb(0,0,0);
   font-size: 20px;
@@ -308,6 +309,7 @@ font-weight:600;
 
 .widget{
   width: 100vw;
+  color: white;
   padding: 30px;
   text-align: center;
   align-self: left;
@@ -334,18 +336,34 @@ font-weight:600;
 #accordion{
   max-width: 500px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 #accordion .ui-accordion-content a {
-  color: #777;
+
 }
 
 #accordion .ui-accordion-header {
-  background-color: #ccc;
+
   margin: 0px;
+
   box-shadow: inset 0px -1px 0px 0px rgba(0, 0, 0, .4),
         inset 0px 1px 1px 0px rgba(0, 0, 0, .2);
+}
+
+#accordion:hover
+.accordion-item:hover
+.accordion-item-content,
+.accordion .accordion-item--default
+.accordion-item-content {
+    height: 20em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
 }
 
 #hashtag{
@@ -377,7 +395,7 @@ font-weight:600;
 /* Social media icons*/
 #socialMedia{
   padding: 20px 20px 20px 20px;
-  border: 2px solid grey;
+  box-shadow: 2px grey;
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
@@ -391,31 +409,31 @@ font-weight:600;
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
+  background: black;
   color: white;
 }
 
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
+  background: black;
   color: white;
 }
 /* instagram */
 .fa-instagram {
-  background: #C13584;
+  background: black;
   color: white;
 }
 /* linked in*/
 .fa-linkedin {
-  background: #2867B2;
+  background: black;
   color: white;
 }
 /* youtube */
 .fa-youtube {
-  background: #FF0000;
+  background: black;
   color: white;
 /* vimeo */
 .fa-vimeo {
-    background: white;
-    color: ;
+    background: black;
+    color: white;
   }
